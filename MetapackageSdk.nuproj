@@ -14,34 +14,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <PackageType>MSBuildSdk</PackageType>
-    <Description>
-  <![CDATA[
-# Metapackage SDK
-
-This package simplifies (and encapsulates) the process of creating a metapackage.
-
-## Usage
-
-Simply add a reference to the `MetapackageSdk` to your project file along with all of your references to other projects and packages.
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-    <Sdk Name="MetapackageSdk" />
-    <ItemGroup Label="Project References">
-        <ProjectReference Include="Project.One.csproj" />
-        <ProjectReference Include="Project.Two.csproj" />
-        <ProjectReference Include="Project.Three.csproj" />
-    </ItemGroup>
-    <ItemGroup Label="Package References">
-        <PackageReference Include="MyCoolPackage" />
-        <PackageReference Include="MyKickassPackage" />
-        <PackageReference Include="MyReallyCrummyPackageButImStillGonnaReleaseIt" />
-    </ItemGroup>
-</Project>
-
-Then, run `dotnet pack` and you'll get a metapackage with all of your dependencies.
-]]>
-    </Description>
+    <Description>This package simplifies (and encapsulates) the process of creating a metapackage.</Description>
   </PropertyGroup>
   <ItemGroup>
     <PackageFile Include="Sdk/*" PackagePath="Sdk/%(Filename)%(Extension)" />
