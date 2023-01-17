@@ -7,7 +7,8 @@ created: 2023-01-09-07:05:28
 lastmod: 2023-01-11T02:45:34.204Z
 tags:
   - license
-  - MIT
+  - IP
+  - copyright
 categories:
   - license
   - IP
@@ -15,9 +16,13 @@ categories:
 keywords:
   - license
   - mit
-slug: mit-license
+  - IP
+  - copyright
 description: The MIT License
 date: 2023-01-16T11:55:48.194Z
+authors:
+  - justin
+slug: mit-license
 ---
 # MIT License
 
