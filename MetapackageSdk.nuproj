@@ -12,6 +12,7 @@
 
 <Project Sdk="Microsoft.Build.NoTargets">
   <PropertyGroup>
+    <IsAtRoot>true</IsAtRoot>
     <TargetFramework>netstandard1.0</TargetFramework>
     <PackageType>MSBuildSdk</PackageType>
     <Description>This package simplifies (and encapsulates) the process of creating a metapackage.</Description>
