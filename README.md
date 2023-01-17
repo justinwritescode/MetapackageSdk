@@ -19,7 +19,7 @@ Simply add a reference to the `MetapackageSdk` to your project file along with a
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
-    <Sdk Name="MetapackageSdk" />
+    <Sdk Name="MetapackageSdk/0.0.4" />
     <ItemGroup Label="Project References">
         <ProjectReference Include="Project.One.csproj" />
         <ProjectReference Include="Project.Two.csproj" />
